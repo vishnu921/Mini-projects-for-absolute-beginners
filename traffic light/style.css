@@ -1,0 +1,47 @@
+
+.traffic-light-container{
+    height: 100vh;
+    background-color: skyblue;
+    font-family: "Roboto";
+}
+
+.traffic-light-heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.light-container{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    height: 250px;
+    background-color: #1f1d41;
+    border-radius: 40px;
+}
+
+.button{
+    background-color: #1f1d41;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.light{
+    /* margin-bottom: 20px; */
+    background-color: #4b5069;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
