@@ -1,0 +1,15 @@
+.bg-container {
+  background-image: url("light-bg-theme.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.heading {
+  color: #014d40;
+  font-size: 48px;
+  font-family: "Lobster";
+}
+
+.user-input {
+  width: 150px;
+}
